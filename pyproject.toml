@@ -1,0 +1,25 @@
+[project]
+name = "hypo"
+version = "0.1.0"
+description = "Research proposal generation pipeline: SFT data synthesis, fine-tuning, inference, and LLM-judge evaluation"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "accelerate>=1.12.0",
+    "bitsandbytes>=0.49.1",
+    "datasets>=4.6.1",
+    "loguru>=0.7.3",
+    "matplotlib>=3.10.7",
+    "numpy>=2.3.3",
+    "openai>=2.2.0",
+    "openreview-py>=1.52.2",
+    "pandas>=2.3.3",
+    "pdfplumber>=0.11.7",
+    "peft>=0.18.1",
+    "pypdf2>=3.0.1",
+    "rank-bm25>=0.2.2",
+    "sentence-transformers>=5.1.2",
+    "torch>=2.9.0",
+    "transformers>=4.57.1",
+    "wandb>=0.24.0",
+]
